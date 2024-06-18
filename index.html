@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regal Solutions CSS Assignment</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="navButton()">
+          <img src="assets/menu.svg">
+        </a>
+        <a href="#home">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+      
+    <div>
+        <img class="banner" src="assets/banner.png">
+    </div>
+
+    <br><br>
+
+    <div class="line1">
+            <img class="img1" src="assets/group.png">
+            <a class="textHeader1">What We Do</a><br><br><br><br><br><br><br>
+            <a class="text1">At Regal Solutions, we are committed to maximizing your business potential. Our objective is to create exceptional websites and applications using cutting-edge technology, enabling seamless connections between you and your valued customers. We prioritize efficiency, ensuring that your digital platforms embrace innovation, empowering you to cultivate meaningful engagements and build lasting relationships that go beyond traditional business boundaries.</a><br><br>
+            <a class="text1"></a>Let us be be your guide on the path to greatness for you and your business.</a><br>
+    </div>
+    
+    <br><br><br><br><br>
+
+    <div class="line2">
+        <br><br><br>
+        <img class="img2" src="assets/office.png">
+        <a class="textHeader2">How We Do It</a><br><br><br><br><br><br><br>
+        <a class="text2">To achieve this, we carefully understand our clients' needs. Our dedicated team collaborates closely using the latest design frameworks and advanced development methods. We engage in a detailed process of ideation, architecture and implementation, infusing creativity and expertise into every step. With precise attention, we refine each aspect of the solution ensuring top performance, user-friendliness and appealing design. Our commitment to excellence motivates us to exceed expectations delivering digital experiences that make a lasting impact.</a><br><br>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="form">
+        <form name="form" onsubmit="return ValidateAndCalculate()" method="post">
+            <label for="responseType">Response Type</label>
+            <select id="responseType" name="responseType">
+              <option value="enquiry">Enquiry</option>
+              <option value="complaint">Complaint</option>
+              <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="name">Name of Company/Individual</label>
+            <input type="text" id="name" name="name" placeholder="Your company/personal name.."><br><br>
+        
+            <label for="details">Details</label>
+            <input type="text" id="details" name="details" placeholder="Details..."><br><br>
+
+            <label for="consent">Do you consent to having your details be recorded?</label><br><br>
+            <div class="radioButtons">
+                <input type="radio" class="radio" name="yes" id="yesRadio"/>
+                <label for="yes">Yes</label>
+                <input type="radio" class="radio" name="no" id="noRadio"/>
+                <label for="no">No</label>
+            </div><br><br>
+
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+
+    <br><br><br><br>
+
+    <script src="script.js"></script>
+</body>
+</html>
